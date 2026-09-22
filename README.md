@@ -117,4 +117,6 @@ BCA | Data Science & AI
 
 Aspiring Data Analyst
 
+<img width="960" height="536" alt="Dashboard_screenshot" src="https://github.com/user-attachments/assets/c87e9db7-8ceb-41f4-bee3-990224a82cc2" />
+
 

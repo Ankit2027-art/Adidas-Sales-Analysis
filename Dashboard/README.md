@@ -73,20 +73,6 @@ The dataset used in this project was obtained through a YouTube tutorial/resourc
 
 I used the dataset to explore Adidas sales performance and create an interactive Power BI dashboard.
 
-## Project Structure
-
-Adidas-Sales-Analysis/
-│
-├── Dashboard/
-│   └── Adidas_Sales_Dashboard.pbix
-│
-├── Dataset/
-│   └── Adidas_Sales_Data
-│
-├── Images/
-│   └── Dashboard_Screenshot.png
-│
-└── README.md
 
 ## Key Learning Outcomes
 

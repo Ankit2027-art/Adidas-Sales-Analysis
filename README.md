@@ -1,123 +1,132 @@
+# Adidas Sales Analysis | SQL & Power BI
 
-# Adidas Sales Analysis Dashboard
+## Project Overview
 
-## About the Project
+This project focuses on analyzing Adidas sales data using **MySQL** and **Power BI**. The goal is to explore sales performance, identify trends, evaluate product and retailer performance, and generate meaningful business insights.
 
-This project is an interactive Adidas Sales Analysis Dashboard created using Microsoft Power BI.
-
-The main goal of this project is to understand sales performance and explore different aspects of Adidas sales data, including products, regions, retailers, and sales channels.
-
-The dashboard includes sales data from 2020 and 2021 and provides interactive filters to explore the data in a simple and visual way.
+The project combines SQL-based data analysis with an interactive Power BI dashboard to present findings in a clear and structured way.
 
 ## Project Objectives
 
-- Analyze total sales, profit, and units sold.
-- Understand monthly sales trends.
-- Explore sales performance across different states and regions.
-- Analyze product-wise and retailer-wise sales.
-- Practice creating interactive dashboards using Power BI.
-- Present business data through clear and meaningful visualizations.
+- Analyze overall sales and revenue performance.
+- Identify top-performing products and retailers.
+- Compare sales across regions, states, and cities.
+- Understand sales performance across different sales methods.
+- Analyze monthly, quarterly, and yearly sales trends.
+- Identify key business insights and recommendations.
+- Build an interactive Power BI dashboard for data visualization.
 
-## Dashboard Features
+## Tools & Technologies
 
-### Sales Performance
-
-The dashboard includes key performance indicators such as:
-
-- Total Sales
-- Total Profit
-- Total Units Sold
-- Average Price per Unit
-- Profit Margin
-
-### Monthly Sales Trend
-
-Displays monthly sales performance to help understand changes in sales over time.
-
-### State-wise Sales
-
-Shows sales distribution across different states using a map visualization.
-
-### Region-wise Sales
-
-Provides a comparison of sales performance across different regions.
-
-### Product-wise Sales
-
-Analyzes sales across different Adidas product categories, including footwear and apparel.
-
-### Retailer-wise Sales
-
-Displays sales performance across different retailers, including West Gear, Foot Locker, Sports Direct, Kohl's, Amazon, and Walmart.
-
-### Interactive Filters
-
-The dashboard includes filters for:
-
-- Year
-- Month
-- Sales Channel (In-store, Online, and Outlet)
-
-These filters help users explore the data based on their selected requirements.
-
-## Tools Used
-
-- Microsoft Power BI
-- Data Visualization
-- Data Analysis
-- Business Intelligence
-
-## Data Source
-
-The dataset used in this project was obtained through a YouTube tutorial/resource for learning and practice purposes.
-
-I used the dataset to explore Adidas sales performance and create an interactive Power BI dashboard.
+- **MySQL Workbench** – Data querying and analysis
+- **Power BI** – Dashboard development and visualization
+- **Microsoft Excel / CSV** – Dataset
+- **GitHub** – Project documentation and version control
 
 ## Project Structure
 
+```text
 Adidas-Sales-Analysis/
 │
 ├── Dashboard/
-│   └── Adidas_Sales_Dashboard.pbix
+│   ├── Adidas_Dashboard.pbix
+│   ├── Dashboard_screenshot.png
+│   └── README.md
 │
 ├── Dataset/
 │   └── Adidas_Sales_Data
 │
-├── Images/
-│   └── Dashboard_Screenshot.png
+├── SQL/
+│   ├── 01_database_setup.sql
+│   ├── 02_data_import_validation.sql
+│   ├── 03_data_quality_checks.sql
+│   ├── 04_sales_kpis.sql
+│   ├── 05_product_analysis.sql
+│   ├── 06_retailer_analysis.sql
+│   ├── 07_regional_sales_analysis.sql
+│   ├── 08_state_city_analysis.sql
+│   ├── 09_sales_method_analysis.sql
+│   ├── 10_monthly_sales_analysis.sql
+│   ├── 11_time_based_analysis.sql
+│   ├── 12_business_questions.sql
+│   ├── 13_advanced_sql.sql
+│   ├── 14_final_business_insights.sql
+│   └── README.md
 │
 └── README.md
+```
+
+## SQL Analysis
+
+The SQL analysis is organized into multiple files, covering:
+
+- Database setup and data import validation
+- Data quality checks
+- Overall sales KPIs
+- Product and retailer performance
+- Regional, state, and city-wise sales analysis
+- Sales method analysis
+- Monthly and time-based sales trends
+- Business questions and advanced SQL queries
+- Final business insights and recommendations
+
+Detailed key findings and recommendations are documented within the respective SQL files and consolidated in the final business insights file.
+
+## Power BI Dashboard
+
+An interactive Power BI dashboard was created to visualize important sales metrics and business performance.
+
+**Dashboard Preview**
+
+![Adidas Sales Dashboard](./Dashboard/Dashboard_screenshot.png)
+
+**Power BI File:** [View Adidas Dashboard](./Dashboard/Adidas_Dashboard.pbix)
+
+For more details about the dashboard, refer to the [Dashboard README](./Dashboard/README.md).
+
+## Dataset
+
+The dataset contains Adidas sales records for **2020 and 2021**.
+
+It includes information such as:
+
+- Retailer
+- Retailer location
+- Product category
+- Price per unit
+- Units sold
+- Total sales
+- Operating profit
+- Operating margin
+- Sales method
+- Invoice date
+
+The dataset is used for learning and analysis purposes.
 
 ## Key Learning Outcomes
 
 Through this project, I gained practical experience in:
 
+- Writing SQL queries for business analysis.
+- Using aggregate functions, joins, subqueries, and window functions.
+- Performing data quality checks.
+- Analyzing sales trends and business performance.
 - Creating interactive dashboards in Power BI.
-- Designing and presenting business KPIs.
-- Exploring sales data using different visualizations.
-- Using filters to analyze business performance.
-- Improving my understanding of data visualization and business analytics.
-
-## Project Purpose
-
-This project was created as part of my learning journey in Data Analytics and Business Intelligence. It helped me practice Power BI and understand how sales data can be presented through an interactive dashboard.
+- Translating analytical findings into business insights and recommendations.
 
 ## Future Improvements
 
-- Add more detailed sales analysis.
-- Include additional KPIs and business insights.
-- Improve dashboard design and interactivity.
-- Explore more advanced Power BI features.
+- Add more advanced business analysis.
+- Enhance dashboard interactivity.
+- Include additional KPIs and visualizations.
+- Explore sales forecasting and predictive analysis.
 
 ## Author
 
-**Ankit Patel**
-
-BCA | Data Science & AI
-
+**Ankit Patel**  
+BCA | Data Science & AI  
 Aspiring Data Analyst
 
-<img width="972" height="552" alt="image" src="https://github.com/user-attachments/assets/e77c69dc-84e0-42e1-acf9-bd0f833cf300" />
+---
 
-
-
+*This project was created for learning and practical application of SQL and Power BI skills.*

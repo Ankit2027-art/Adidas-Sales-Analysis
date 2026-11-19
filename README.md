@@ -34,7 +34,17 @@ Adidas-Sales-Analysis/
 │   └── README.md
 │
 ├── Dataset/
-│   └── Adidas_Sales_Data
+│   └── Adidas US Sales_Datasets.xlsx
+│
+├── Images/
+│   ├── Adidas_logo.png
+│   ├── Avg price per unit.png
+│   ├── Clear_filter.png
+│   ├── Dashboard_screenshot.png
+│   ├── Profit Margin.png
+│   ├── Total Profit.png
+│   ├── Total Sales.png
+│   └── Total unit sold.png
 │
 ├── SQL/
 │   ├── 01_database_setup.sql
